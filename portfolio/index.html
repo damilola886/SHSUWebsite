@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="canonical" href="/">
+        
+        <!-- Primary Meta Tags -->
+        <title>Damilola Oladimeji</title>
+
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-179772800-1', 'auto');
+            ga('send', 'pageview');
+
+            const social_links ={
+                linkedin: "https://www.linkedin.com/in/damilola-kehinde-oladimeji-b81617170/",
+                github: "https://github.com/damilola886",
+                Twitter: "https://twitter.com/dam_kehinde",
+                Curicuculum: "./Resume/Resume.docx",
+                shsu:"https://www.shsu.edu/",
+            }
+
+            trackGAforMenusOpeningNewTab = (name, socialName) =>{
+
+                ga('send', 'event', name, 'clicked')
+                window.open(social_links[socialName], "_blank")
+
+            }
+
+        </script>
+    </head>
+    <body>
+      
+        
+        <div class="wrap">
+            <div class="content">
+                <h1 class="content__head">Hi <span class="content__head-wave">👋</span>
+                    <span class="content__head-name">I am  Damilola Oladimeji</span>
+                </h1>
+                <p>A PhD student at Sam Houston State University, Huntsville Texas.</p>
+                <p> 
+                Welcome and thanks for your interest. 
+                My research focus is on investigating the 
+                vulnearbilities in the standardized communication 
+                protocol that allows microcontrollers and devices to 
+                communicate with each other in a vehicle, this protocol is known as CANbus.<br>
+				I have included most of my achievements on this website to demonstrate my intellectual growth, 
+                                commitment, and determination to achieving my 
+                                doctorate degree.
+                </p>
+               
+                                <hr>
+
+                                <h1 class="content__head" style= font-size:18px;>
+                                    <span class="content__head-name" h>Research Interest</span>
+                                </h1>
+                                
+                                    <ul >
+                                        <li style= font-size:15px;>
+                                            Automobile forensics
+                                        </li>
+                                        <li style= font-size:15px;>
+                                            IOT Forensics
+                                        </li>
+                                        <li style= font-size:15px;>
+                                            Cloud Forensics
+                                        </li >
+                                        <li style= font-size:15px;>
+                                            Malware Detection
+                                        </li>
+                                    </ul>
+                                    <hr>
+                                    <h1 class="content__head" style= font-size:18px>
+                                        <span class="content__head-name" >Papers</span>
+                                    </h1>
+                                    
+                                        <ul >
+                                            <li style= font-size:15px;>
+                                                Ratcliffe, C., Bokolo, B.,<b>Oladimeji, D.</b>and Zhou, B., 2022. Detection of Anti-Forensics and Malware Applications in Volatile Memory 
+                                                    Acquisition. (IEA AIE)
+                                            </li>
+                                            <li style= font-size:15px;>
+                                                 <a href=" https://myshsu-my.sharepoint.com/:f:/g/personal/dko011_shsu_edu/EgbHP3qE1tpNqNbQr15FKRQBFIxw3A12fjUayD9IPR1Hww?e=QDLgBv"> Link </a> to papers in works.
+                                            </li>
+                                            
+                                        </ul>
+                                
+
+                <ul class="social">
+                    <li>
+                        <a onclick="trackGAforMenusOpeningNewTab('social_medium_btn', 'linkedin')" class="social__link social__medium" target="_blank">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a onclick="trackGAforMenusOpeningNewTab('social_dribbble_btn', 'github')" class="social__link social__dribbble" target="_blank">Github</a>
+                    </li>
+                    <li>
+                        <a onclick="trackGAforMenusOpeningNewTab('social_behance_btn', 'twitter')" class="social__link social__behance" target="_blank">Twitter</a>
+                    </li>
+                    <li>
+                        <a onclick="trackGAforMenusOpeningNewTab('social_behance_btn', 'Curicuculum')" class="social__link social__CV" target="_blank">Resume</a>
+                    </li>
+                </ul>
+
+             
+
+            </div>
+            <div class="img">
+                <a onclick="trackGAforMenusOpeningNewTab('github_fork_btn', 'shsu')" class="img__github">
+                  
+                    <img src="./images/logo.png" alt="" height="80px" width="250px">
+                </a>
+                
+                <img loading="lazy" src="./images/img.jpg" alt="">
+                
+            </div>
+        </div>
+
+    </body>
+</html>
